@@ -17,14 +17,14 @@
         }
 
         public function MostrarDatos(){
-            echo "<hr>";
-            echo "<--- Propiedad Inmobiliaria ---> <br>";
-            echo "ID: " . $this->Id . "<br>";
-            echo "Dirección: " . $this->Direccion . "<br>";
-            echo "Metros Cuadrados: " . $this->MetrosCuadrados . "<br>";
-            echo "Ciudad: " . $this->Ciudad . "<br>";
-            echo "Valor: " . $this->Valor . "<br>";
-            echo "<hr>";
+            echo '<hr>';
+            echo '<--- Propiedad Inmobiliaria ---> <br>';
+            echo 'ID: ' . $this->Id . '<br>';
+            echo 'Dirección: ' . $this->Direccion . '<br>';
+            echo 'Metros Cuadrados: ' . $this->MetrosCuadrados . '<br>';
+            echo 'Ciudad: ' . $this->Ciudad . '<br>';
+            echo 'Valor: ' . $this->Valor . '<br>';
+            echo '<hr>';
         }
 
     }
